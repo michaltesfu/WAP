@@ -1,0 +1,36 @@
+body{
+    background-color: azure;
+}
+
+header {
+    background-image: url(./javascript.jpg); 
+    background-size: cover;
+    height: 200px; 
+    width: 100vw;
+    padding: 30px;
+    margin: 30px; 
+}
+
+h1{
+    color: whitesmoke;
+    margin: auto;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.me{
+    width: 130px;
+    height: 180px;
+    border-radius: 80%;
+    overflow: hidden;
+    
+}
+.mik{
+    float: right;
+}
+
+footer{
+    background-color:rgb(223, 251, 223);
+    margin: auto;
+    padding: 10px;
+}

@@ -1,0 +1,39 @@
+header{
+    height: 100px;
+}
+
+.bgColor{
+    background-color:bisque;
+}
+
+.wColor{
+    color:rgb(244, 161, 9);
+}
+
+.tColor{
+    font-weight: bolder;
+    color: rgb(245, 120, 141);
+}
+
+.hover a:hover{
+    text-decoration: underline;
+    color: brown;
+}
+
+.imgSize{
+    width: 110px;
+    height: 110px;
+
+}
+
+.unOrderList{
+    list-style-type: circle ;
+}
+.src{
+    width: 90px;
+    height: 32px;
+}
+.div{
+    display: inline;
+    float: right;
+}
