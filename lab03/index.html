@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
+
 <body>
     <header>
-        
+        <nav class=" side ">
+            <a class="a1" href="">Agent Portal</a>
+            <a class="a2"href="">Submit Ticket</a>
+            <a class="a3" href="">Know</a>
+        </nav>
+
+       <div class="logo">
+        <img class=" img1" src="./img/miu.png" alt="miu logo">   
+         <p class="p1" ><strong> | Maharshi University IT Dept</strong></p>
+        </div>
+                 
     </header>
+
+   <h1>Welcome to our Support Center</h1>
+    <h2>Login</h2>
+
+<main id = "mypage">
+  <p>Login to know the status of the ticket</p>
+  <img class="img2" src="./img/azure ad.png" alt="">
+  <p>------------or login using----------</p>
+
+<form action="">
+  <P>Username or Email</P>
+  <input type="text" id="myInput" name="myInput" value="Enter email">
+  <p>Password</p>
+ <input type="text" id="myInput" name="myInput" value="Enter Password">
+ <br>
+<input type="checkbox" name="Remember me" id="myCheckbox">
+<label for="myCheckbox">Remember me</label>
+<a href="#" onclick="forgotPassword()">Forgot Password?</a>
+<br>
+<input type="text" id="myInput" name="myInput" value="Login">
+
+</form>
+<p>Login to track your existing support requests. if you have not crated a ticket yet then you would need to <span>register</span> or <span>create a new ticket</span> to begin</p>
+<input class="input1" type="button" value="Submit ticket">
+<footer>
+    &copy; Michal Tesfu
+</footer>
 </body>
-</html>

@@ -1,0 +1,53 @@
+.nav,a{
+    float: right;
+}
+
+h1{
+   background-color: aquamarine;
+   padding: 10px;
+   text-align: center;
+   font-size: 70px;
+   padding-bottom: 10px;
+}
+.logo{
+display: flex;
+padding-right: 10px;
+}
+.img1{
+    width: 50px;
+    height: 70px;
+    float: center;
+}
+.img2{
+        width: 50px;
+        height: 50px;
+        border: 2px solid black;
+    }
+.p1{
+   padding-left:  30px;
+}
+
+.side a:hover{
+    color: blue;
+
+}
+.a1{
+    padding-right: 10px;
+}
+.a2{
+    padding-right: 20px;
+}
+.a3{
+    padding-right: 30px;
+}
+span{
+    color:aquamarine
+}
+.input1 {
+    background-color:black;
+   color: aliceblue;
+
+}
+form{
+    margin-right:20px
+}
