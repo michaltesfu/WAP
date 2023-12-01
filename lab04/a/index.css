@@ -17,5 +17,11 @@ input, button {
 
     background-color: pink;
     color:blue
-
+    
+}
+button{
+    width: 100px; /* Adjust the width as needed */
+  height: 30px; /* Adjust the height as needed */
+  font-size: 14px;
+  align-items: center;
 }
