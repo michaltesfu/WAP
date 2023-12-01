@@ -1,6 +1,11 @@
 body{
     background-color: azure;
 }
+ul a:hover{
+    color: red;
+    font-style: italic;
+   
+}
 
 header {
     background-image: url(./javascript.jpg); 
