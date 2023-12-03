@@ -161,11 +161,96 @@
 //     let max3= findmax(3,4,5);
 //     console.log(findMax(max3))
 
-const fruitname=['banana','apple','orange'];
-fruitname[2]="michal";
-fruitname[3]='jossey';
-fruitname[8]='helen'
-for(let element of fruitname){
-    console.log(fruitname)
-}
-console.log(arrfruitname);
+// const fruitname=['banana','apple','orange'];
+// fruitname[2]="michal";
+// fruitname[3]='jossey';
+// fruitname[8]='helen'
+
+// // console.log(fruitname.shift('banana'));
+// // console.log(fruitname);
+// fruitname.pop("apple")
+// // console.log(fruitname.pop('apple'));
+// console.log(fruitname);
+// let na=["michal" ,"is" ,"the", "perefect" ,"girl"];
+// na.splice(1,1);
+
+// na.splice(0,3,"jossi","is","perfect");
+// console.log(na);
+// let num =[1,2,3];
+// console.log(num);
+// console.log(num.toString ==='1,2,3');
+// 
+// let strArr=["hello","world","all"]
+// let conc= strArr.reduce(function(acc,elem,i,strArr){
+//     return acc + elem + " "}," ")
+// console.log(conc);
+// let arr1=[10,90,80,1000]
+// let find =arr1.find (function(elem,i,arr)){
+//     return find >100;
+// }
+// console.log(find)
+// let matric=[
+//     [5,2,3],
+//     [4,5,6],
+//     [7,8,9]
+// ]
+// // for(let i=o;i<matric.length;i++)
+// let user ={
+//     full nam:"michal",
+//     "shipping addres":[
+//         {street:"100 n with", city:"dallas",state:"texas"}
+//     ]
+   
+// }
+// console.log(user["shipping addres"][0].state);
+// let user ={
+//     fname:"michal",
+//     lname:"tesfu",
+//     "birds names":"canary"
+// }
+// user.fname="aida"
+// user.family="tesfu"
+// user.get=function(){
+//     return true;
+// }
+// delete user .fname,
+// delete user["birds names"]
+// console.log(user)
+// let user={
+//     fname:"michal",
+//     lasname:"tesfu",
+//    "birds name": "canary"
+   
+// }
+// delete user["birds name"]
+// console.log(user["birds name"])
+// user.mname="ghe"
+// delete user.mname
+// console.log(user)
+
+// let user={}
+
+// let key="birds name";
+
+// //user [key]= true 
+//  user.key=true
+//  user['key']=true
+
+// console.log(user)
+// let user={
+//     name:"michal",
+//     age:40,
+// }
+// let result="name";
+// console.log(user.result)
+// console.log(user[result])
+// let numbers=[1,2,3,4,5,5,6,6,67,87,80]
+// let maximam = Math.max(...numbers)
+// console.log(maximam)
+
+// let x=["m","n","x"]
+// let y=["z","6","9"]
+// let zis=x.push( y)
+
+// console.log(x)
+
