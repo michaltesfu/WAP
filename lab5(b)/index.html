@@ -12,7 +12,8 @@
         <code>
 
        
-    This is my solution for lab5(b)
+   <h1> This is my solution for lab5(b)</h1>
+
 // PART II JavaScript HomeWork Solutions
 //question 1
 
@@ -27,10 +28,9 @@ let libraryBooks = [
 
 function addBook(title,author,libraryID){
     const newBook = {title: title,
-        author: author,
-        libraryID: libraryID
+                     author: author,
+                     libraryID: libraryID
     };
-
     libraryBooks.push(newBook);
     return newBook;
 }
@@ -44,19 +44,18 @@ console.log("Array of books: ",libraryBooks);
 
 
 function getTitles(){
-
    const title= libraryBooks.map(book => book.title)
    const result=title.sort();
    return result;
 }
-
-
 const result = getTitles();
 console.log("Here are the titles alphabetically ordered: ",result);
+
 </p>
 <p>
 
 //c Find Book by its given keyword and alphabetically ordered by the author?
+
 function findBooks(keyword){
     const booksWithRoadInTitle = libraryBooks.filter(book => book.title.toLowerCase().includes(keyword.toLowerCase())); 
     return booksWithRoadInTitle.sort((a,b) => a.author.localeCompare(b.author));
@@ -65,13 +64,14 @@ const selectedListByKeyWord = findBooks("road");
 console.log('Here are the books that contains "ROAD" keyword ordered by author: ',selectedListByKeyWord);
 
 // question 2
+
 //This code does map every element of the array and by applying the function, it will return squared numbers in a new array 
 
 function myMap(arr, fun){
-    return arr.reduce((acc, current, i, array) => {
+        return arr.reduce((acc, current, i, array) => {
         acc.push(fun(current, i, array));
         return acc;
-    }, []);
+         }, []);
 }
 let myArr = [11,22,33,44,50];
 let squaredNums = myMap(myArr, x => x ** 2);
