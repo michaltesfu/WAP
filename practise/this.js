@@ -254,3 +254,249 @@
 
 // console.log(x)
 
+// let users=[
+//     {id:8,names:"mikalliks"},
+//     {id:87,names:"sizianaaa"},
+//     { id:54,names:"kibromm"}
+// ]
+// let someusers=users.filter(f=>f<2)
+// console.log(someusers.length)
+// let users=["michal","nahom","mengis","semere"]
+// let use=users.map(m =>m.length)
+// console.log(use)
+
+
+
+// function x(a,b){
+//     if( a>b)return 1;
+//     if(a==b)return 0;
+//     if(a<b)return -1
+// }
+
+// num.sort(x)
+// console.log(num)
+// let num=[6,7,21,1,2]
+// let x= num.filter(f=>)f%2!==0)
+// const a = ["Hydrogen", "Helium", "Lithi", "Beryllium"];
+// const x= a.filter(f=>f.length>5)
+// const y=a.find(f=> f.length>5)
+// const z = a.findIndex(f=>f.charAt)
+// console.log(x)
+
+// var a, b, c, d, e;
+// a = [1, 2, 3];
+// b = "dog";
+// c = [42, "cat"];
+// let x=a.concat(b,c)
+// console.log(x)
+// console.log(...a,b,...c)
+// const numbers = [10, 20]; let
+// [a, b] = numbers;
+// console.log(a);
+// console.log(b);
+
+// let fruit="banana"
+// let fun={
+//     [fruit]:5
+// }
+// console.log(fun.banana)
+// let user = {
+//     name: "John",
+//     age: 30,
+//     isAdmin: true
+// };
+//     for(let elem of user){
+//         return elem
+//     }
+
+//     console.log(elem)
+
+// function max(x){
+
+
+// }
+// console.log(max())
+// var x = 5;
+// console.log(x);
+// if(x==5){
+//     let y = 2*x;
+// console.log(y);
+// console.log(x); 
+// }
+// console.log(x);
+// console.log(y); 
+// let le="empty"
+// console.log(Boolean(le))
+
+// let libraryBooks = [
+//     { title: "The Road Ahead", author: "Bill Gates", libraryID: 1235 },
+//     { title: "Walter Isaacson", author: "Steve Jobs", libraryID: 4268 },
+//     { title: "The Road Ahead", author: "Bill Gates", libraryID: 4268 },
+//     { title: "Mockingjay: The Final Book of The Hunger Games", author: "Suzanne Collins", libraryID: 3257 }
+//   ];
+  
+//   function addBook(title, author, libraryID) {
+//     // Create a new book object
+//     const newBook = { title, author, libraryID };
+  
+//     // Add the new book to the library
+//     libraryBooks.push(newBook);
+  
+//     // Return the newly created book
+//     return newBook;
+//   }
+  
+//   // Example usage:
+//   const newBook = addBook("The Great Gatsby", "F. Scott Fitzgerald", 7890);
+//   console.log(newBook);
+//   console.log(libraryBooks);
+// function max(a,b){
+//   if(a>b)return a
+//   else if( b>a)return b
+//   else "they are eqyal"
+// }
+// console.log(max(989,7))
+
+// function maxOfThree(a,b,c){
+//   if(a>b && a>c)return a;
+//   if(b>a && b> c)return b;
+//   else return c
+// }
+// console.log( maxOfThree(9,44,2))
+//  function isVowel(a) {
+//  let vowel= "AEIOUaeiou"
+//   let check=vowel.includes(a)
+//   return check;
+//  }
+//  console.log( isVowel("a") )
+
+
+//  function isVowel(c){
+//   let Vowels = "aeiouAEIOU";
+//   let check = Vowels.includes(c);
+//   return check;   
+// }
+
+
+// function sum(zis) {
+//   let total=0;
+//   for(i=0; i<zis.length;i++){
+// total+=zis[i]
+// }
+// return total
+// }
+
+// console.log(sum(x) )
+
+
+// function multiply(zis) {
+//   let total=1;
+//   for(let elet of zis){
+//     total*=elet
+//   }
+//   return total;
+// }
+// let x=[1,2,3,4]
+// console.log(multiply(x))
+// f
+
+// function printOddNumbersOnly(x){
+// return x.find(f=>f % 2 !==0);
+// }
+// let xy=[23,1,24,2,6]
+// console.log(printOddNumbersOnly(xy))
+
+// function printOddNumbersOnly(o){
+//   return o.filter(f => f % 2 !== 0);
+// }
+// let odds = [1,2,3,4,5,6,7];
+// console.log("Odd numbers: ", printOddNumbersOnly(odds));
+// function computeSumOfSquaresOfEvensOnly(xy){
+//   return xy.find(f=> f % 2 == 0).map(m => m * m).reduce((x,y)=>x+y,0)
+
+// }
+// let num=[1,2,2,2]
+// console.log(computeSumOfSquaresOfEvensOnly(num))
+// 
+// const x=[1,2,3,4,5];
+// const y = x.splice(2)
+// const z= x.slice(2)
+// console.log(y)
+
+ // Assuming you have a library object to store books
+
+
+
+
+
+
+
+
+
+
+// const library = [];
+
+// function addBook(title, author, libraryID) {
+//     // Create a new book object
+//     const newBook = {
+//         title: title,
+//         author: author,
+//         libraryID: libraryID
+//     };
+
+//     // Add the new book to the library
+//     library.push(newBook);
+
+//     // Return the newly created book
+//     return newBook;
+// }
+
+// // Example usage:
+// const book1 = addBook("The Great Gatsby", "F. Scott Fitzgerald", 123);
+// console.log(book1);
+
+// const book2 = addBook("To Kill a Mockingbird", "Harper Lee", 456);
+// console.log(book2);
+
+// let libraryBooks = [
+//     { title: "The Road Ahead", author: "Bill Gates", libraryID: 1235 },
+//     { title: "Walter Isaacson", author: "Steve Jobs", libraryID: 4268 },
+//     { title: "The Road Ahead", author: "Bill Gates", libraryID: 4268 },
+//     { title: "Mockingjay: The Final Book of The Hunger Games", author: "Suzanne Collins", libraryID: 3257 }
+//    ];
+
+
+// //    function zis(xy){
+// //     let y= libraryBooks.map(map=>map.title)
+// //     let result=y.sort();
+// //     return result
+// //    }
+// //    const ha=zis()
+// // console .log(zis())
+
+// function zis(xy){
+//     const result=libraryBooks.find(find=>find.title).sort()
+
+// return result}
+// console .log(zis())
+function myMap(arr, fun) {
+    const mappedArray = [];
+
+    for (let i = 0; i < arr.length; i++) {
+        // Apply the function to each element and save the result in the new array
+        mappedArray.push(fun(arr[i], i, arr));
+    }
+
+    return mappedArray;
+}
+
+// Example usage:
+const numbers = [1, 2, 3, 4, 5];
+
+// Define a function to square each number
+const squareFunction = (num) => num * num;
+
+// Use myMap to create a new array of squared numbers
+const squaredNumbers = myMap(numbers, squareFunction);
+
+console.log(squaredNumbers); // Output: [1, 4, 9, 16, 25]
