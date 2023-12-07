@@ -39,6 +39,11 @@ askPassword(function() {user.loginOk();}, function(){user.loginFail();});
 // // using apply
 // askPassword(()=>user.loginOk.apply(user), ()=>user.loginFail.apply(user));
 
+<h3>This is the reason for the error</h3>
+Within the scope of `loginOk()` or `loginFail()`, the `this` keyword will not point to the user object; instead, 
+it will reference the global object (typically `window` in a browser environment) or be undefined if operating in
+ strict mode.
+
 
 //Question 2.
 
