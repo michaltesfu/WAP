@@ -35,8 +35,8 @@ let rabits=[rab1,rab2, rab3, rab4];
 // sorting the Rabbits by their speed before increasing their speed
 console.log(rabits.sort(Animal.compareBySpeed));
 
-console.log("rabit 3 increase speed to ", rab3.run(9));
-console.log("rabit 4 increase speed to ", rab4.run(8));
+console.log("rabit 1  increase speed to ", rab3.run(2));
+console.log("rabit 2 increase speed to ", rab4.run(3));
 
 // sorting the Rabbits by their speed after increasing their speed
 console.log(rabits.sort(Animal.compareBySpeed));
