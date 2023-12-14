@@ -4,7 +4,7 @@ const fs = require('fs');
 const server = http.createServer((req, res) => {
   if (req.url === '/image') {
     res.setHeader('Content-Type', 'image/jpeg'); 
-    fs.createReadStream('./rabbit.jpeg').pipe(res); 
+    fs.createReadStream('./Red-Sea.jpg').pipe(res); 
   } else if (req.url === '/pdf') {
     res.setHeader('Content-Type', 'application/pdf'); 
     fs.createReadStream('./homework.pdf').pipe(res); 
