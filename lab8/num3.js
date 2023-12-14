@@ -42,9 +42,9 @@ function Student(lastName, firstName, grades) {
 
   
   console.log("Grade Average of Student 1: ",st1Avg);
-console.log("Grade Average of Student 2: ",st2Avg);
-console.log("Grade Average of Student 3: ",st3Avg);
-console.log("Grade Average of Student 4: ",st3Avg);
+  console.log("Grade Average of Student 2: ",st2Avg);
+  console.log("Grade Average of Student 3: ",st3Avg);
+  console.log("Grade Average of Student 4: ",st3Avg);
   
   let students = [st1Avg, st2Avg, st3Avg, st4Avg];
   

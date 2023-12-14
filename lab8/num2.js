@@ -1,21 +1,21 @@
-function Student(lastName, firstName, grades) {
+let students=function(lastName, firstName, grades) {
   this.lastName = lastName;
   this.firstName = firstName;
   this.grades = grades;
 }
 
-Student.prototype.inputNewGrade = function (newGrade) {
+Students.prototype.inputNewGrade = function (newGrade) {
   this.grades.push(newGrade);
 };
 
-Student.prototype.computeAverageGrade = function () {
+Students.prototype.computeAverageGrade = function () {
   return this.grades.reduce((result, element) => (result + element), 0) / this.grades.length;
 };
 
-let student1 = new Student("michal", "tesfu", []);
-let student2 = new Student("jossi", "sibhatu", []);
-let student3 = new Student("Helen", "Berhane", []);
-let student4 = new Student("Herzon", "Kidane", []);
+let student1 = new Students("michal", "tesfu", []);
+let student2 = new Students("jossi", "sibhatu", []);
+let student3 = new Students("Helen", "Berhane", []);
+let student4 = new Students("Herzon", "Kidane", []);
 
 student1.inputNewGrade(78);
 student1.inputNewGrade(86);
